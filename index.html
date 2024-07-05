@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | IMC Calculadora</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <script src="./assets/script/script.js"></script>
 </head>
 <body>
     <noscript>O JavaScript está desabilitado em seu navegador.</noscript>
     <header>
         <h1>IMC Calculadora</h1>
+        <nav>
+            <img src="./assets/img/coment-icon.png" alt="Ícone de Comentários">
+            <img src="./assets/img/share-icon.png" alt="Ícon de Compartilhamento">
+            <img src="./assets/img/like-icon.png" alt="Ícone de Like">
+        </nav>
     </header>
     <main>
         <form action=".">
@@ -25,8 +33,29 @@
                     <input id="peso" type="text" name="peso">
                 </label>
 
+                <div class="form__resultado">
+                    <h5>imc</h5>
+                    <p>24,7</p>
+                    <h6>Classificação</h6>
+                    <p>Normal</p>
+                </div>
+
+                <button>Calcular</button>
+
         </form>
     </main>
-    <footer></footer>
+    <footer>
+        <div>
+            <a target="_blank" href="https://www.linkedin.com/in/rodrigoduar-te/">
+                <img src="./assets/img/linkedin-icon.png" alt="Linkedin">
+            </a>
+            <a target="_blank" href="https://github.com/rodrigoduartesilva/">
+                <img src="./assets/img/github-icon.png" alt="GitHub">
+            </a>
+            <a target="_blank" href="https://www.behance.net/rodrigoduarte53">
+                <img src="./assets/img/behance-icon.png" alt="Behance">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

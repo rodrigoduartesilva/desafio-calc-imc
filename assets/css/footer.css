@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5vh;
+    background-color: #4dd7ec;
+    color: #FFF;
+    text-align: center;
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.6);
+    box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.6);
+}
+
+footer div {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
