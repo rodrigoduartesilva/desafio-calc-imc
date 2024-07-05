@@ -8,7 +8,7 @@
 body {
     box-sizing: border-box;
     color: #4dd7ec;
-    width: 375px;
-    height: 667px;
+    width: 100vw;
+    height: 100vh;
     font-family: "Raleway", sans-serif;
 }
