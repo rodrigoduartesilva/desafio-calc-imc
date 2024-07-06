@@ -1,6 +1,7 @@
 main {
-    height: 50%;
+    height: 35%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 90px;
@@ -14,17 +15,18 @@ form {
 }
 
 label h4 {
-    
     text-align: center;
     text-transform: uppercase;
 }
 
 label input {
     all: unset;
-    border-bottom: 1px solid #d1e9ec;
-    font-size: 15px;
+    border-bottom: 1px solid #ddebec;
+    font-size: 1.125rem;
     height: 30px;
     margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: center;
 
     &:focus {
         border-bottom: 1px solid #4dd7ec;
@@ -32,6 +34,7 @@ label input {
 }
 
 .form__resultado {
+    width: 200px;
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -47,29 +50,49 @@ label input {
 
 .form__resultado h5, h6{
     font-size: 0.9375rem;
+    margin-bottom: 15px;
 }
 
 .form__resultado p {
     font-size: 22px;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 
-button {
+.fadeInAnimation {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.button__container button {
     all: unset;
     width: 100%;
     background-color: #4dd7ec;
     border-radius: 3px;
     color: #dbf0f3;
+    margin-top: 15px;
     padding: 8px 1px;
     text-align: center;
     text-transform: uppercase;
     -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.6);
     -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.6);
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.4);
+    transform: scale(1.0);
+    transition: .4s;
 
     &:hover {
         color: #d1e9ec;
         cursor: pointer;
         opacity: 0.7;
+        transform: scale(0.98);
+        transition: .4s;
     }
 }

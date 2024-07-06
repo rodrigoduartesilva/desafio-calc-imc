@@ -21,28 +21,31 @@
         </nav>
     </header>
     <main>
-        <form action=".">
-            
-                <label for="altura">
-                    <h4>Altura</h4>
-                    <input id="altura" type="text" name="altura">
-                </label>
+        <div class="container">
+            <form action=".">
+                    <label for="altura">
+                        <h4>Altura</h4>
+                        <input id="altura" type="text" name="altura">
+                    </label>
+        
+                    <label for="peso">
+                        <h4>Peso</h4>
+                        <input id="peso" type="text" name="peso">
+                    </label>
+            </form>
     
-                <label for="peso">
-                    <h4>Peso</h4>
-                    <input id="peso" type="text" name="peso">
-                </label>
-
-                <div class="form__resultado">
-                    <h5>imc</h5>
-                    <p>24,7</p>
-                    <h6>Classificação</h6>
-                    <p>Normal</p>
+            <div class="form__resultado">
+                <h5>imc</h5>
+                <p id="resultado__imc"> - </p>
+                <h6>Classificação</h6>
+                <p id="classificacao__imc"> - </p>
+                <div class="button__container">
+                    <button id="calcular">Calcular</button>
+                    <button id="limpar">Limpar Dados</button>
                 </div>
+            </div>
+        </div>
 
-                <button>Calcular</button>
-
-        </form>
     </main>
     <footer>
         <div>
