@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
-    <script src="./assets/script/script.js"></script>
+    <script src="./assets/javascript/main.js"></script>
+    <script src="./assets/javascript/testarSaidas.js"></script>
+    <script src="./assets/javascript/limparDados.js"></script>
+    <script src="./assets/javascript/fadeInAnimation.js"></script>
+    <script src="./assets/javascript/classificacaoImc.js"></script>
+    <script src="./assets/javascript/calculoImc.js"></script>
 </head>
 <body>
     <noscript>O JavaScript está desabilitado em seu navegador.</noscript>
@@ -21,28 +26,26 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-            <form action=".">
-                    <label for="altura">
-                        <h4>Altura</h4>
-                        <input id="altura" type="text" name="altura">
-                    </label>
-        
-                    <label for="peso">
-                        <h4>Peso</h4>
-                        <input id="peso" type="text" name="peso">
-                    </label>
-            </form>
+        <form action=".">
+                <label for="altura">
+                    <h4>Altura</h4>
+                    <input id="altura" type="text" name="altura">
+                </label>
     
-            <div class="form__resultado">
-                <h5>imc</h5>
-                <p id="resultado__imc"> - </p>
-                <h6>Classificação</h6>
-                <p id="classificacao__imc"> - </p>
-                <div class="button__container">
-                    <button id="calcular">Calcular</button>
-                    <button id="limpar">Limpar Dados</button>
-                </div>
+                <label for="peso">
+                    <h4>Peso</h4>
+                    <input id="peso" type="text" name="peso">
+                </label>
+        </form>
+
+        <div class="form__resultado">
+            <h5>imc</h5>
+            <p id="resultado__imc"> - </p>
+            <h6>Classificação</h6>
+            <p id="classificacao__imc"> - </p>
+            <div class="button__container">
+                <button id="calcular">Calcular</button>
+                <button id="limpar">Limpar Dados</button>
             </div>
         </div>
 

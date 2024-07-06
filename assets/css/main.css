@@ -44,13 +44,10 @@ label input {
     text-align: center;
 }
 
-.form__resultado h5 {
-    text-transform: uppercase;
-}
-
 .form__resultado h5, h6{
     font-size: 0.9375rem;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .form__resultado p {

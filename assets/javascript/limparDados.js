@@ -1,0 +1,3 @@
+function limparDados() {
+    location.reload();
+}
