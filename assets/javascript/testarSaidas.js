@@ -1,3 +1,5 @@
+/* Função chamada para exibir testes das saídas da aplicação no console  */
+
 function testarSaidas() {
     let altura = 1.80;
     let peso = [50, 60, 85, 120];

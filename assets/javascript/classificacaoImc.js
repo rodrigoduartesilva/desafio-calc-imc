@@ -1,3 +1,5 @@
+/* Função que insere um texto no html da pagina principal informando a classificação do usuário baseado em seu IMC */
+
 function classificacaoImc() {
     let classificacao = document.getElementById('classificacao__imc');
 

@@ -1,3 +1,5 @@
+/*CSS contendo os estilos do conteúdo principal da página*/
+
 main {
     height: 35%;
     display: flex;
@@ -20,7 +22,7 @@ label h4 {
 }
 
 label input {
-    all: unset;
+    all: unset; /*Reset dos estilos padrão da tag input*/
     border-bottom: 1px solid #ddebec;
     font-size: 1.125rem;
     height: 30px;
@@ -28,6 +30,7 @@ label input {
     margin-top: 10px;
     text-align: center;
 
+    /* Uso da pseudo-classe focus estilizando o input quando ele estiver com o curso de texto sobre ele */
     &:focus {
         border-bottom: 1px solid #4dd7ec;
     }
@@ -56,6 +59,7 @@ label input {
     margin-bottom: 15px;
 }
 
+/*Estilização e regras para animação "fadein"*/
 .fadeInAnimation {
     animation: fadeIn 2s;
     -webkit-animation: fadeIn 2s;
@@ -85,6 +89,7 @@ label input {
     transform: scale(1.0);
     transition: .4s;
 
+    /*Pseudo-classe hover inserindo uma estilização ao passar o mouse por cima do botão*/
     &:hover {
         color: #d1e9ec;
         cursor: pointer;
