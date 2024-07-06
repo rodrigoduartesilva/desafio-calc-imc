@@ -5,19 +5,28 @@
 Desenvolver uma aplicação em JavaScript que calcule o Índice de Massa Corporal (IMC) de um usuário. O foco principal da atividade é a implementação da lógica de cálculo em JavaScript.
 
 1. Implementação JavaScript:
-   • Crie um arquivo script que conterá toda a lógica de cálculo do IMC.
-   • Implemente uma função que:
-   ▪ Receba o peso (em quilogramas) e a altura (em metros ou centímetros) como parâmetros.
-   ▪ Calcule o IMC utilizando a fórmula: IMC = peso / (altura \* altura).
-   ▪ Determine a classificação do IMC de acordo com os seguintes critérios:
-   • Abaixo do peso: IMC < 18.5
-   • Peso normal: 18.5 ≤ IMC < 24.9
-   • Sobrepeso: 25 ≤ IMC < 29.9
-   • Obesidade: IMC ≥ 30
-   ▪ Retorne ou exiba o resultado do IMC e a classificação correspondente.
+   <ul>
+   <li>Crie um arquivo script que conterá toda a lógica de cálculo do IMC.</li>
+   <ul>
+   <li>Implemente uma função que:</li>
+   <li>Receba o peso (em quilogramas) e a altura (em metros ou centímetros) como parâmetros.</li>
+   <li>Calcule o IMC utilizando a fórmula: IMC = peso / (altura * altura).</li>
+   <li>Determine a classificação do IMC de acordo com os seguintes critérios:</li>
+   <ul>
+   <li>Abaixo do peso: IMC < 18.5</li>
+   <li>Peso normal: 18.5 ≤ IMC < 24.9</li>
+   <li>Sobrepeso: 25 ≤ IMC < 29.9</li>
+   <li>Obesidade: IMC ≥ 30</li>
+   <li>Retorne ou exiba o resultado do IMC e a classificação correspondente.</li>
+   </ul>
+   </ul>
+   </ul>
+   
 2. Teste da Função:
-   • Inclua exemplos de testes da função de cálculo do IMC no próprio arquivo de script.
-   • Garanta que a função seja chamada com diferentes valores de peso e altura e que os resultados sejam exibidos no console do navegador.
+   <ul>
+   <li>Inclua exemplos de testes da função de cálculo do IMC no próprio arquivo de script.</li>
+   <li>Garanta que a função seja chamada com diferentes valores de peso e altura e que os resultados sejam exibidos no console do navegador.</li>
+   </ul>
 
 ## Instalando a aplicação em seu computador
 
